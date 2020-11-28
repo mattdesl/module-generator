@@ -78,7 +78,7 @@ function getParams(done) {
     var data = {
       user: {
           name: config.get('init.author.name')
-        , site: config.get('init.author.url')||''
+        , url: config.get('init.author.url')||''
         , email: config.get('init.author.email')
         , github: config.get('init.author.github')
         , username: config.get('username')
